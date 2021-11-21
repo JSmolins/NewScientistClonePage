@@ -266,6 +266,7 @@ figcaption span{
 }
 .topics{
   margin-top: 2em;
+  margin-bottom: 2em;
 }
 .topics p{
   display: inline;
@@ -310,4 +311,69 @@ aside{
   height: 400px;
   width: 200px;
   background-color: blue;
+}
+
+/* Bottom of Article Media Link styling */
+.mediaLinks{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20vw;
+  margin-right: 37vw;
+}
+.mediaLinks .socialIcons{
+  height: 30px;
+}
+.eZine{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.eZineButtons{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.subscribe{
+  height: 2em;
+  font-family: sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  background-color: #00b3e5;
+  margin-bottom: 1em;
+}
+.subscribe:hover{
+  background-color: #288eb7;
+  transition: 0.2s;
+}
+.app{
+  height: 2em;
+  font-family: sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  background-color: #20b2aa;
+  margin-bottom: 1em;
+}
+.app:hover{
+  background-color: #5f9ea0;
+  transition: 0.2s;
+}
+.print{
+  height: 2em;
+  font-family: sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  background-color: #ff0000;
+}
+.print:hover{
+  background-color: #de1d1d;
+  transition: 0.2s;
 }

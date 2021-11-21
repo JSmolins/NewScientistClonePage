@@ -304,13 +304,192 @@ figcaption span{
 }
 
 /* Sidebar Styling */
-aside{
+.sidebar{
+  display: flex;
+  flex-direction: column;
   position: absolute;
   top: 18vh;
   left: 64vw;
-  height: 400px;
-  width: 200px;
-  background-color: blue;
+  height: auto;
+  margin-right: 20%;
+}
+.sideButtons{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+.trending{
+  font-family: sans-serif;
+  font-size: .8em;
+  font-weight: bold;
+  color: black;
+  border: none;
+  background-color: #f5f5f5;
+  padding: .8em;
+}
+.trending:hover{
+  background-color: #ddd;
+  transition: 0.2s;
+}
+.latest{
+  font-family: sans-serif;
+  font-size: .8em;
+  font-weight: bold;
+  color: black;
+  border: none;
+  background-color: #f5f5f5;
+  padding: .8em;
+}
+.latest:hover{
+  background-color: #ddd;
+  transition: 0.2s;
+}
+.video{
+  font-family: sans-serif;
+  font-size: .8em;
+  font-weight: bold;
+  color: black;
+  border: none;
+  background-color: #f5f5f5;
+  padding: .8em;
+}
+.video:hover{
+  background-color: #ddd;
+  transition: 0.2s;
+}
+.free{
+  font-family: sans-serif;
+  font-size: .8em;
+  font-weight: bold;
+  color: black;
+  border: none;
+  background-color: #f5f5f5;
+  padding: .8em;
+}
+.free:hover{
+  background-color: #ddd;
+  transition: 0.2s;
+}
+.sideCards *{
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  margin-bottom: 4px;
+}
+.card1 a{
+  font-family: sans-serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #4d4d4d;
+  text-decoration: none;
+  flex: 4;
+  padding: .5em;
+}
+.card1 a:hover{
+  color: #00b3e5;
+  transition: 0.2s;
+}
+.card1 p{
+  font-family: sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #00b3e5;
+  align-self: center;
+  text-align: right;
+  padding-right: 0.5em;
+  margin-left: 2em;
+}
+.card2 a{
+  font-family: sans-serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #4d4d4d;
+  text-decoration: none;
+  flex: 4;
+  padding: .5em;
+}
+.card2 a:hover{
+  color: #00b3e5;
+  transition: 0.2s;
+}
+.card2 p{
+  font-family: sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #00b3e5;
+  align-self: center;
+  text-align: right;
+  padding-right: 0.5em;
+  margin-left: 2em;
+}
+.card3 a{
+  font-family: sans-serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #4d4d4d;
+  text-decoration: none;
+  flex: 4;
+  padding: .5em;
+}
+.card3 a:hover{
+  color: #00b3e5;
+  transition: 0.2s;
+}
+.card3 p{
+  font-family: sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #00b3e5;
+  align-self: center;
+  text-align: right;
+  padding-right: 0.5em;
+  margin-left: 2em;
+}
+.card4 a{
+  font-family: sans-serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #4d4d4d;
+  text-decoration: none;
+  flex: 4;
+  padding: .5em;
+}
+.card4 a:hover{
+  color: #00b3e5;
+  transition: 0.2s;
+}
+.card4 p{
+  font-family: sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #00b3e5;
+  align-self: center;
+  text-align: right;
+  padding-right: 0.5em;
+  margin-left: 2em;
+}
+.card5 a{
+  font-family: sans-serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #4d4d4d;
+  text-decoration: none;
+  flex: 4;
+  padding: .5em;
+}
+.card5 a:hover{
+  color: #00b3e5;
+  transition: 0.2s;
+}
+.card5 p{
+  font-family: sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #00b3e5;
+  align-self: center;
+  text-align: right;
+  padding-right: 0.5em;
+  margin-left: 2em;
 }
 
 /* Bottom of Article Media Link styling */

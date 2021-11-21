@@ -146,6 +146,16 @@ h2{
   font-weight: 700;
   letter-spacing: -1px;
 }
+p{
+  font-family: serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #4d4d4d;
+}
+p a{
+  color: #00b3e5;
+  text-decoration: none;
+}
 .socialIcons{
   margin-top: 1em;
   margin-bottom: 1em;
@@ -219,6 +229,77 @@ figcaption{
 figcaption span{
   font-size: 1em;
   font-weight: normal;
+}
+.readMore{
+  height: 3em;
+  padding-top: 1em;
+  padding-left: 1em;
+  margin-bottom: 1em;
+  background-color: #f5f5f5;
+}
+.readMore p{
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.readMore a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #00b3e5;
+  text-decoration: none;
+}
+.references{
+  font-family: sans-serif;
+  font-size: .9em;
+  font-weight: bold;
+  color: black;
+}
+.references span{
+  font-family: serif;
+  font-style: italic;
+  font-weight: normal;
+}
+.launchpad{
+  font-family: serif;
+  font-style: italic;
+  margin-top: .5em;
+}
+.topics{
+  margin-top: 2em;
+}
+.topics p{
+  display: inline;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #4d4d4d;
+}
+.planets{
+  font-size: 1em;
+  font-weight: bold;
+  padding: .5em;
+  margin-left: .5em;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  background-color: #005587;
+}
+.planets:hover{
+  background-color: #288eb7;
+  transition: 0.2s;
+}
+.mars{
+  font-size: 1em;
+  font-weight: bold;
+  padding: .5em;
+  margin-left: .5em;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #005587;
+}
+.mars:hover{
+  background-color: #288eb7;
+  transition: 0.2s;
 }
 
 /* Sidebar Styling */
